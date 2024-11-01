@@ -1,0 +1,158 @@
+body {
+    font-family: var(--bs-body-font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #051341;
+    color: var(--bs-white);
+    line-height: var(--bs-body-line-height);
+    font-size: var(--bs-body-font-size);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.header {
+    background-color: #64a19d;
+    color: var(--bs-white);
+    padding: 15px 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    width: 100%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar-list li {
+    margin: 0 15px;
+}
+
+.navbar-list li a {
+    color: var(--bs-white);
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar-list li a:hover {
+    background-color: #50817e;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.whatsapp-button {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #25D366;
+    color: var(--bs-white);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: var(--bs-border-radius);
+}
+
+.whatsapp-button:hover {
+    background-color: #20b354;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: var(--bs-border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: var(--bs-border-radius);
+    box-sizing: border-box;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #64a19d;
+    color: var(--bs-white);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--bs-border-radius);
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #50817e;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.servico-item {
+    background-color: #f8f9fa;
+    color: #0501a1;
+    padding: 20px;
+    border-radius: var(--bs-border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.servico-item h2 {
+    margin-bottom: 10px;
+}
+
+.servico-item p {
+    margin: 0;
+}

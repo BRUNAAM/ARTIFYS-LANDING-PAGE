@@ -1,0 +1,60 @@
+.cta-final {
+    padding: 60px 20px;
+    background-color: #051341;
+    text-align: center;
+}
+
+.cta-final h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cta-final button {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-final button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cta-final {
+        padding: 40px 15px;
+    }
+
+    .cta-final h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-final button {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-final {
+        padding: 30px 10px;
+    }
+
+    .cta-final h2 {
+        font-size: 1.2rem;
+    }
+
+    .cta-final button {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+}

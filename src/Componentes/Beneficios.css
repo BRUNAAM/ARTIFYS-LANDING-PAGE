@@ -1,0 +1,74 @@
+/* Estilo para o componente Beneficios */
+
+.beneficios {
+    padding: 60px 20px;
+    background-color: #051341;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.beneficio-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.beneficio-item {
+    background-color: #ff4801;
+    color: #051341;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+}
+
+.beneficio-item h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #051341;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.beneficio-item p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #051341;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .beneficio-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficio-item {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .beneficios h2 {
+        font-size: 1.5rem;
+    }
+
+    .beneficio-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .beneficio-item p {
+        font-size: 0.9rem;
+    }
+}

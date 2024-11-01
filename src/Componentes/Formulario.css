@@ -1,0 +1,123 @@
+/* Estilo para o componente Formulario */
+
+.content-section {
+    padding: 60px 20px;
+    background-color: #051341;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ff4801;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-family: 'Times New Roman', Times, serif;
+    color: #051341;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #051341;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content-section {
+        padding: 40px 15px;
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .formulario {
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .form-group input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-section {
+        padding: 30px 10px;
+    }
+
+    .content-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .formulario {
+        padding: 10px;
+    }
+
+    .form-group label {
+        font-size: 0.8rem;
+    }
+
+    .form-group input {
+        padding: 6px;
+        font-size: 0.8rem;
+    }
+
+    .submit-button {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+}
