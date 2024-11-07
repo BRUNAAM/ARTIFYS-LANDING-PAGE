@@ -12,8 +12,25 @@
     margin: 10px 0;
 }
 
-.contato {
-    margin-bottom: 20px;
+.redes-sociais {
+    margin-top: 15px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociais a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociais a:hover img {
+    transform: scale(1.2);
 }
 
 /* Responsividade */
@@ -26,8 +43,9 @@
         font-size: 20px;
     }
 
-    .contato {
-        margin-bottom: 15px;
+    .redes-sociais a img {
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -40,7 +58,24 @@
         font-size: 18px;
     }
 
-    .contato {
-        margin-bottom: 10px;
+    .redes-sociais a img {
+        width: 20px;
+        height: 20px;
     }
+}
+
+footer.rodape {
+    background-color: #051341;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rodape .contato {
+    margin-bottom: 10px;
+}
+
+.rodape a {
+    text-decoration: none;
 }

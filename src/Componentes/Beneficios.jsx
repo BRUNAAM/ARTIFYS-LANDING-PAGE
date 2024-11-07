@@ -7,7 +7,7 @@ function Beneficios() {
             <div className="beneficio-lista">
                 <div className="beneficio-item">
                     <h3>Primeira Impressão Inesquecível</h3>
-                    <p>Tenha uma marca que se destaca.</p>
+                    <p>Tenha uma marca que se destaca, sem perder a sua essência.</p>
                 </div>
                 <div className="beneficio-item">
                     <h3>Conexão com Seu Público-Alvo</h3>

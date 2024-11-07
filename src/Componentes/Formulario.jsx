@@ -1,11 +1,37 @@
-import "./Formulario.css"
-
+import "./Formulario.css";
+import db from "./firebaseConfig";
+import { collection, addDoc } from "firebase/firestore";
 
 function Formulario() {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        
+        const nome = e.target.nome.value;
+        const telefone = e.target.telefone.value;
+        const cidade = e.target.cidade.value;
+        const email = e.target.email.value;
+        const observacao = e.target.observacao.value;
+
+        try {
+            await addDoc(collection(db, "formularios"), {
+                nome,
+                telefone,
+                cidade,
+                email,
+                observacao,
+            });
+            alert("Formulário enviado com sucesso!");
+            e.target.reset();
+        } catch (e) {
+            console.error("Erro ao enviar formulário: ", e);
+            alert("Erro ao enviar o formulário. Tente novamente mais tarde.");
+        }
+    };
+
     return (
         <div id="formulario" className="content-section">
-            <h2>Se você quer uma demonstração dos nossos trabalhos, ficaremos muito felizes em te aprensentar. Entraremos em contato</h2>
-            <form className="formulario">
+            <h2>Se você quer uma demonstração dos nossos trabalhos, ficaremos muito felizes em te apresentar. Entraremos em contato</h2>
+            <form className="formulario" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="nome">Nome Completo: </label>
                     <input type="text" id="nome" name="nome" required />

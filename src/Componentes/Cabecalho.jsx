@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 function Cabecalho() {
     return (
         <header className="cabecalho">
-            <div className="logo">
+            <div className="logo">  
                 <img src={logo} alt="IMG NAO ENCONTRADA" className="imglogo"/>
             </div>
             <nav>
