@@ -10,12 +10,13 @@ function Hero() {
 
     return (
         <section className="hero">
-            <h1>Destaque a sua marca com uma identidade visual que encanta!
+            <h1>Destaque a sua marca com um visual que encanta, 
+                desenvolvemos sua identidade sem perder a sua essência!
                 <br />
                 <br /><br />
 
             </h1>
-            <p>Sua empresa merece uma identidade visual profissional que transmita credibilidade e conquiste clientes.</p>
+            <h3>Sua empresa merece uma identidade visual profissional que transmita credibilidade e conquiste clientes.</h3>
             <button onClick={handleWhatsAppClick}>SOLICITE UMA CONSULTA GRATIS</button>
         </section>
     );

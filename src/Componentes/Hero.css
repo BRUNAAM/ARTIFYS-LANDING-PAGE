@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.hero frase{
+.hero frase {
     font-family: 'Times New Roman', Times, serif;
     color: #ff4801;
     font-size: 2.5rem;
@@ -20,15 +20,23 @@
 
 .hero h1 {
     font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
     font-size: 2.5rem;
     margin-bottom: 20px;
+
+    /* Aplicar o gradiente */
+    background: linear-gradient(to right, #ff4801, #6c1e5f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Versão padrão */
+    -webkit-text-fill-color: transparent;
 }
 
-.hero p {
+
+
+.hero h3 {
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
@@ -46,7 +54,7 @@
 }
 
 .hero button:hover {
-    background-color: #0056b3;
+    background-color: #0501a1;
 }
 
 /* Responsividade */

@@ -3,6 +3,7 @@
     background-color: #051341;
     text-align: center;
     color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .rodape p {
@@ -18,19 +19,25 @@
 
 .redes-sociais a {
     margin: 0 10px;
-    color: #ffffff;
     text-decoration: none;
     transition: transform 0.3s ease;
 }
 
 .redes-sociais a img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 50px;
     transition: transform 0.3s ease;
 }
 
 .redes-sociais a:hover img {
     transform: scale(1.2);
+}
+
+.rodape h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 0;
 }
 
 /* Responsividade */
@@ -62,20 +69,4 @@
         width: 20px;
         height: 20px;
     }
-}
-
-footer.rodape {
-    background-color: #051341;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.rodape .contato {
-    margin-bottom: 10px;
-}
-
-.rodape a {
-    text-decoration: none;
 }
